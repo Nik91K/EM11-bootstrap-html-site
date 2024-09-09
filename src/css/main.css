@@ -1,0 +1,28 @@
+.content-div-main{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cards-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+.card-div{
+    background-color: rgb(148, 149, 150);
+    color: #333333;
+    border: 1px solid #000000;
+}
+
+.cart-fontawasome{
+    color: rgb(148, 53, 53);
+    font-size: 600%;
+    margin-bottom: 15px;
+}
+
+.cart-p-text{
+    font-size: 18px;
+}
