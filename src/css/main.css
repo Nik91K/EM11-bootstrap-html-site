@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .content-div-main{
     max-width: 1920px;
     margin: 0 auto;
@@ -20,9 +25,21 @@
 .cart-fontawasome{
     color: rgb(148, 53, 53);
     font-size: 600%;
-    margin-bottom: 15px;
 }
 
 .cart-p-text{
     font-size: 18px;
+}
+
+.cards-wrapper-12{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.btn-group{
+    padding: 0;
+}
+
+.py-5{
+    padding-top: 0;
 }
